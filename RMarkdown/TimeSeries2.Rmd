@@ -56,9 +56,9 @@ Density plots:
 
 ```{r}
 ggplot(data = NDF, aes(x = Age, fill = Gender)) + 
-  geom_density(alpha = 0.5) + 
+  geom_density(alpha = 5) + 
   theme_bw() + 
-  scale_fill_manual(values = c("blue", "pink"))
+  scale_fill_manual(values = c("orange", "purple"))
 ```
 
 Summary information:
